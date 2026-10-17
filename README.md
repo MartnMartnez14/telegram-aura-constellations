@@ -30,6 +30,18 @@
 # 🌐 English Documentation
 
 ## 1. Core Philosophy & Objectives
+### Project status: one project, two repositories
+
+**Prototype phase closed.** Telegram AURA remains available as a documented design experiment and interactive prototype, not a finished messaging product. This exploratory stage is concluded; further development and maintenance are not promised.
+
+- **[Design Concept](https://github.com/MartnMartnez14/telegram-aura-design-concept)** — the original visual direction: a space-inspired interface concept for Telegram chats, messages, and personal ideas.
+- **[Constellations](https://github.com/MartnMartnez14/telegram-aura-constellations)** — this repository: the interactive exploration of that vision through notes, cards, and connections on a spatial canvas.
+
+Together they preserve the idea and its prototype. They are independent work, not an official Telegram product; the prototype does not implement the full chat interface shown in the design concept.
+
+[`ROADMAP.md`](./ROADMAP.md) is retained as historical context and possible directions, not a commitment to future releases. Mind maps of temporary notes and further experiments with the chat visual style are possible independent continuations, not implemented or promised features. Anyone wishing to build on the work should first check the licensing terms for the relevant code and visual assets.
+
+### Original motivation
 
 Every day, some of our best ideas circulate through Telegram: technical discussions, design references, research links, voice note summaries, and personal reminders. Yet when we forward them to *Saved Messages*, they often get buried inside a chronological feed where relational context disappears.
 
@@ -159,6 +171,18 @@ As detailed in [`ARCHITECTURE.md`](./ARCHITECTURE.md), this project clearly dist
 # 🇪🇸 Documentación en Español
 
 ## 1. Filosofía Central y Objetivos
+### Estado del proyecto: un proyecto, dos repositorios
+
+**Etapa de prototipo cerrada.** Telegram AURA queda disponible como experimento de diseño documentado y prototipo interactivo, no como un producto de mensajería terminado. Esta etapa exploratoria se da por concluida; no se promete desarrollo ni mantenimiento futuro.
+
+- **[Design Concept](https://github.com/MartnMartnez14/telegram-aura-design-concept)** — la dirección visual original: un concepto de interfaz de inspiración espacial para chats, mensajes e ideas personales en Telegram.
+- **[Constellations](https://github.com/MartnMartnez14/telegram-aura-constellations)** — este repositorio: la exploración interactiva de esa visión mediante notas, tarjetas y conexiones en un lienzo espacial.
+
+Juntos conservan la idea y su prototipo. Son un trabajo independiente, no un producto oficial de Telegram; el prototipo no implementa toda la interfaz de chats representada en el concepto de diseño.
+
+[`ROADMAP.md`](./ROADMAP.md) se conserva como contexto histórico y posibles direcciones, no como un compromiso de futuras versiones. Los mapas mentales de notas temporales y nuevas exploraciones del estilo visual de los chats son posibles continuaciones independientes, no funciones implementadas ni prometidas. Quien quiera construir sobre este trabajo deberá revisar primero las condiciones de licencia del código y de los recursos visuales correspondientes.
+
+### Motivación original
 
 En Telegram circulan cada día algunas de nuestras mejores ideas: fragmentos de conversaciones técnicas, recomendaciones culturales, enlaces de investigación, notas y recordatorios personales. Sin embargo, cuando los enviamos a *Mensajes Guardados* (*Saved Messages*), terminan sepultados en un flujo cronológico infinito donde el contexto relacional desaparece.
 
@@ -226,4 +250,4 @@ python3 -m unittest discover -s backend_tma -p "test_*.py" -v
 
 ## License / Licencia
 
-Distributed under the **MIT License**. / Distribuido bajo la **Licencia MIT**.
+Distributed under the **[MIT License](./LICENSE)**. / Distribuido bajo la **[Licencia MIT](./LICENSE)**.
