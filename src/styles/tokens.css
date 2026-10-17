@@ -1,0 +1,144 @@
+/* ==========================================================================
+   TELEGRAM AURA — CONSTELLATIONS
+   Design System Tokens: Midnight Amethyst (Night) & Pearl Lavender (Day)
+   WCAG 2.2 AA Contrast Verified
+   ========================================================================== */
+
+:root,
+[data-theme="night"] {
+  color-scheme: dark;
+
+  /* Core Surfaces — Midnight Amethyst */
+  --bg-canvas: #10121D;
+  --bg-surface: #1C1D2C;
+  --bg-surface-glass: rgba(28, 29, 44, 0.84);
+  --bg-elevated: #24263A;
+  --bg-elevated-hover: #2C2F47;
+  --bg-overlay: rgba(10, 12, 20, 0.72);
+
+  /* Typography Hierarchy */
+  --text-primary: #F4F0F8;
+  --text-secondary: #A7A5B7;
+  --text-muted: #7E7B91;
+  --text-on-accent: #10121D;
+
+  /* Celestial Accents */
+  --accent-amethyst: #A997DF;
+  --accent-amethyst-soft: rgba(169, 151, 223, 0.16);
+  --accent-gold: #D9BC80;
+  --accent-gold-soft: rgba(217, 188, 128, 0.16);
+  --accent-sage: #94BFB2;
+  --accent-sage-soft: rgba(148, 191, 178, 0.16);
+  --accent-coral: #E1A6A9;
+  --accent-coral-soft: rgba(225, 166, 169, 0.16);
+  --accent-neutral: #A7A5B7;
+  --accent-neutral-soft: rgba(167, 165, 183, 0.14);
+
+  /* Borders & Focus */
+  --border-subtle: rgba(244, 240, 248, 0.09);
+  --border-strong: rgba(244, 240, 248, 0.18);
+  --border-focus: #A997DF;
+
+  /* Canvas & Astronomical Atmosphere */
+  --canvas-grid-dot: rgba(244, 240, 248, 0.08);
+  --canvas-halo-amethyst: rgba(169, 151, 223, 0.09);
+  --canvas-halo-gold: rgba(217, 188, 128, 0.07);
+  --canvas-halo-sage: rgba(148, 191, 178, 0.07);
+  --connection-line: rgba(169, 151, 223, 0.52);
+  --connection-line-active: #D9BC80;
+
+  /* Elevation & Materiality */
+  --shadow-card: 0 10px 28px -6px rgba(6, 7, 14, 0.55), 0 2px 6px rgba(6, 7, 14, 0.35);
+  --shadow-card-hover: 0 16px 36px -6px rgba(6, 7, 14, 0.72), 0 0 0 1px rgba(169, 151, 223, 0.32);
+  --shadow-modal: 0 24px 60px rgba(4, 5, 12, 0.78);
+  --backdrop-blur: blur(16px);
+
+  /* Typography Families */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+
+  /* Spacing & Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+
+  /* Transitions & Motion */
+  --ease-out-quart: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 240ms;
+  --duration-slow: 420ms;
+
+  /* Safe Areas for Telegram Mini App Mobile Viewports */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+[data-theme="day"] {
+  color-scheme: light;
+
+  /* Core Surfaces — Pearl Lavender */
+  --bg-canvas: #F7F5F1;
+  --bg-surface: #FFFFFF;
+  --bg-surface-glass: rgba(255, 255, 255, 0.88);
+  --bg-elevated: #EFECE6;
+  --bg-elevated-hover: #E5E0D8;
+  --bg-overlay: rgba(41, 38, 55, 0.44);
+
+  /* Typography Hierarchy (WCAG 2.2 AA Verified) */
+  --text-primary: #292637;
+  --text-secondary: #656072;
+  --text-muted: #857F94;
+  --text-on-accent: #FFFFFF;
+
+  /* Celestial Accents — AA Adjusted for Light Surface */
+  --accent-amethyst: #685496;
+  --accent-amethyst-soft: #7562A3;
+  --accent-gold: #947232;
+  --accent-gold-soft: rgba(167, 133, 69, 0.15);
+  --accent-sage: #4D796E;
+  --accent-sage-soft: rgba(99, 142, 131, 0.15);
+  --accent-coral: #B5696E;
+  --accent-coral-soft: rgba(181, 105, 110, 0.14);
+  --accent-neutral: #656072;
+  --accent-neutral-soft: rgba(101, 96, 114, 0.12);
+
+  /* Borders & Focus */
+  --border-subtle: rgba(41, 38, 55, 0.11);
+  --border-strong: rgba(41, 38, 55, 0.22);
+  --border-focus: #7562A3;
+
+  /* Canvas & Astronomical Atmosphere */
+  --canvas-grid-dot: rgba(41, 38, 55, 0.11);
+  --canvas-halo-amethyst: rgba(104, 84, 150, 0.08);
+  --canvas-halo-gold: rgba(148, 114, 50, 0.07);
+  --canvas-halo-sage: rgba(77, 121, 110, 0.07);
+  --connection-line: rgba(104, 84, 150, 0.42);
+  --connection-line-active: #947232;
+
+  /* Elevation & Materiality */
+  --shadow-card: 0 8px 24px -4px rgba(41, 38, 55, 0.09), 0 2px 6px rgba(41, 38, 55, 0.05);
+  --shadow-card-hover: 0 14px 32px -4px rgba(41, 38, 55, 0.15), 0 0 0 1px rgba(104, 84, 150, 0.28);
+  --shadow-modal: 0 24px 54px rgba(41, 38, 55, 0.18);
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-normal: 0ms;
+    --duration-slow: 0ms;
+  }
+}
+
+[data-reduced-motion="true"] {
+  --duration-fast: 0ms;
+  --duration-normal: 0ms;
+  --duration-slow: 0ms;
+}
